@@ -1,5 +1,9 @@
 # Browser Technologies
 
+## Feedback
+
+Mijn Oba app was te minimaal, dus alles wat hier staat is eigenlijk nieuw.
+
 ## Opdracht 1 - Progressive Enhancement
 
 The web is for everyone. Learn about Progressive enhancement
