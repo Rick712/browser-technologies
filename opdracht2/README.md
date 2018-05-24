@@ -4,7 +4,7 @@
 
 | Feedback: | Onderzoek en test toevoegen aan readme carrousel en accordeon                                                               | feature detection toevoegen aan carrousel | Iets meer code     |
 |-----------|-----------------------------------------------------------------------------------------------------------------------------|-------------------------------------------|--------------------|
-|           | Onderzoek gedaan naar: - support van accordeon  - element, feature detection - support van flexbox - support van .forEach() | Feature detection toegevoegd              | Meer code gebruikt |
+|           | Onderzoek gedaan naar: support van accordeon, element, feature detection, support van flexbox en support van .forEach() | Feature detection toegevoegd              | Meer code gebruikt |
 
 
 ## Carrousel
