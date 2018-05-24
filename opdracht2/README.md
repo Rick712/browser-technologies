@@ -1,14 +1,13 @@
 # Browser Technologies
 
-## Beoordelingscriteria
+## Feedback tabel
 
-- 2 componenten zijn onderzocht en er is een demo gemaakt.
-- De code staat in een repository op GitHub.
-- Een Readme is toegevoegd met, per feature:
-- Een beschrijving van de feature.
-- Bronnen van uitleg en gebruikte artikelen.
-- Welke browsers/devices ondersteunen deze wel/niet.
-- Een beschrijving hoe de fallback werkt.
+| Feedback: | Onderzoek en test toevoegen aan readme carrousel en accordeon                                                               | feature detection toevoegen aan carrousel | Iets meer code     |   |
+|-----------|-----------------------------------------------------------------------------------------------------------------------------|-------------------------------------------|--------------------|---|
+|           | Onderzoek gedaan naar: - support van accordeon  - element, feature detection - support van flexbox - support van .forEach() | Feature detection toegevoegd              | Meer code gebruikt |   |
+|           |                                                                                                                             |                                           |                    |   |
+|           |                                                                                                                             |                                           |                    |   |
+
 
 ## Carrousel
 
