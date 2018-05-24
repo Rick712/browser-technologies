@@ -2,6 +2,12 @@
 
 Link voor tijdens de beoordeling: [klik dan](https://79a63b24.ngrok.io)
 
+## Feedback
+
+| Feedback:  | Te lange lijst buiten scherm                                                                                                | Error in IE                          | Ananas bug                                                          | Accesability                                                           |
+|------------|-----------------------------------------------------------------------------------------------------------------------------|--------------------------------------|---------------------------------------------------------------------|------------------------------------------------------------------------|
+| Oplossing: | Wanneer de informatie buiten het  scherm zou vallen stopt het venster  met groter worden, en kan je scrollen in het element | Error opgelost dmv feature detection | Ananas bug opgelost, je kan nu zo veel ananas toevoegen als je wilt | Je kan nu tabben naar de kruisjes  om iets te verwijderen uit de lijst |
+
 ## Opdracht 3 - Progressive Enhanced Browser Technologies
 
 ### Tosti boodschappenlijst
