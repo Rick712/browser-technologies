@@ -37,7 +37,7 @@ Om de website voor kleurenblinden zo toegankelijk mogelijk te maken heb ik eigen
 
 Om de website voor slecht zienden toegankelijker te maken heb ik een redelijk grote font size gebruikt: 1.3rem (~21px), wat groter is dan de normale font size (16px).
 
-De website is redelijk goed met een screenreader te gebruiken. De flow van de website is snel en makkelijk in gebruik.
+De website is redelijk goed met een screenreader te gebruiken. De flow van de website is snel en makkelijk in gebruik (zie screenreader test).
 
 ### Mensen met een fysieke beperking
 
@@ -45,11 +45,19 @@ Mensen die een fysieke beperking hebben die navigeren veel met tabs door website
 
 ### Mensen met een oude browser / device
 
-Zoals ik al eerder aangaf is de website zonder Javascript te gebruiken. Dit zorgt ervoor dat de mensen die een hele oude browser of toestel gebruiken de website normaal kunnen gebruiken.
+Zoals ik al eerder aangaf is de website zonder Javascript te gebruiken. Dit zorgt ervoor dat de mensen die een hele oude browser of toestel gebruiken de website normaal kunnen gebruiken (zie test devicelab).
 
 ## Progressive Enhancement
 
 Zoals ik eerder al heb beschreven werkt de website in elke browser op elk toestel. Wanneer Javascript beschikbaar is, dan opent er een klein deel van de website waar de gebruiker direct ziet wat hij aangevinkt heeft, en wat het totaalbedrag is van de boodschappen. Als de gebruiker van op een Android toestel zit en Chrome 61 of hoger heeft, kan hij zijn lijst delen met de Web Share API.
+
+## Screenreader test
+
+De screenreader deed zo nu en dan niet helemaal wat ik verwacht had, maar de website was opzich wel te gebruiken. Er zaten af en toe rare momenten tussen, maar dat moet aan de screenreader zelf gelegen hebebn
+
+De buttons deden het goed, alleen de `<select>` deed af en toe raar, maar iemand die vaker een screenreader gebruikt zal vast weten wat dat ding bedoeld.
+
+Wat wel slecht van de website was, was dat het verwijderen van een item uit de lijst niet mogelijk was met het navigeren met tab, dus zal iemand die een screenreader gebruikt en slecht ziend is geen item kunnen verwijderen.
 
 ## Device lab test
 
