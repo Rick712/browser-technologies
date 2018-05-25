@@ -1,6 +1,6 @@
 # Browser Technologies
 
-Link voor tijdens de beoordeling: [klik dan](https://79a63b24.ngrok.io)
+Link voor tijdens de beoordeling: [klik dan](https://74e80c43.ngrok.io)
 
 ## Feedback
 
