@@ -69,11 +69,13 @@ aside .allProducts {
     margin: .5rem 0;
 }
 
-.boodschappenExtra div span,
-.boodschappenSaus div span {
+.boodschappenExtra div a,
+.boodschappenSaus div a {
     float: right;
     font-family: sans-serif;
     margin-right: 1rem;
+    color: black;
+    text-decoration: none;
 }
 
 .asideExposed {
@@ -81,7 +83,7 @@ aside .allProducts {
     margin: 0 2em;
 }
 
-div span:hover {
+div a:hover {
     cursor: pointer;
 }
 

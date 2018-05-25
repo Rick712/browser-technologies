@@ -1,5 +1,8 @@
 (function() {
 
+    var input = document.querySelectorAll('input');
+
+    if(input.forEach) {
         var showList = {
             getAside: function() {
                 var aside = document.querySelector('aside'),
@@ -61,18 +64,19 @@
                         var extraList = document.querySelector('.boodschappenExtra'),
                             p = document.createElement('p'),
                             div = document.createElement('div'),
-                            span = document.createElement('span');
+                            elA = document.createElement('a');
                         p.innerHTML = el.value;
-                        span.innerHTML = "X";
+                        elA.innerHTML = "X";
+                        elA.href = "#"
                         p.classList.add('priceItem');
                         div.appendChild(p);
-                        div.appendChild(span);
+                        div.appendChild(elA);
                         extraList.appendChild(div);
 
                         showList.makeTotal();
                         showList.share();
 
-                        var newSpan = document.querySelectorAll('span');
+                        var newSpan = document.querySelectorAll('a');
                         newSpan.forEach(function(span) {
                             span.addEventListener('click', function() {
                                 span.parentNode.innerHTML = "";
@@ -89,18 +93,19 @@
                         var sausList = document.querySelector('.boodschappenSaus'),
                             p = document.createElement('p'),
                             div = document.createElement('div'),
-                            span = document.createElement('span');
+                            elA = document.createElement('a');
                         p.innerHTML = el.value;
-                        span.innerHTML = "X";
+                        elA.innerHTML = "X";
+                        elA.href = "#"
                         p.classList.add('priceItem');
                         div.appendChild(p);
-                        div.appendChild(span);
+                        div.appendChild(elA);
                         sausList.appendChild(div);
 
                         showList.makeTotal();
                         showList.share();
 
-                        var newSpan = document.querySelectorAll('span');
+                        var newSpan = document.querySelectorAll('a');
                         newSpan.forEach(function(span) {
                             span.addEventListener('click', function() {
                                 span.parentNode.innerHTML = "";
@@ -157,4 +162,5 @@
             }
         showList.getAside();
         showList.share();
+    }
 })()
